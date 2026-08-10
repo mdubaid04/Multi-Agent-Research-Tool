@@ -1,0 +1,33 @@
+# --- Core LangChain ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# --- Multi-agent orchestration ---
+langgraph>=0.2.0
+
+# --- Model providers ---
+langchain-xai>=1.3.0        # Grok (xAI) chat models
+langchain-mistralai>=0.2.0  # Mistral AI chat models
+
+# --- Environment / config ---
+python-dotenv>=1.0.0
+
+# --- Tools commonly used in research agents ---  # free web search tool
+tavily-python>=0.5.0        # optional: Tavily search (needs API key)
+requests>=2.32.0
+beautifulsoup4>=4.12.0      # for scraping/parsing fetched pages
+
+
+
+
+# --- Data handling ---
+pydantic>=2.9.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- Async / utils ---
+httpx>=0.27.0
+tenacity>=8.5.0
+
+streamlit>=1.38.0
